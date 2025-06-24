@@ -1,7 +1,7 @@
 import './styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { ThemeProvider } from './lib/hooks/useTheme'
+import { ThemeProvider } from 'next-themes' // <-- The only change needed is here
 import Header from './sections/Header'
 import Footer from './sections/Footer'
 
