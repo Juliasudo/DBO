@@ -1,10 +1,16 @@
 'use client'
 
 import { AnimatePresence, motion } from 'framer-motion'
+import dynamic from 'next/dynamic'
 import Hero from './sections/Hero'
 import Features from './sections/Features'
 import Roadmap from './sections/Roadmap'
-import WhatWeAreBuilding from './sections/WhatWeAreBuilding'
+
+// Dynamically import the WebGL component with SSR turned off
+const WhatWeAreBuilding = dynamic(
+  () => import('./sections/WhatWeAreBuilding'),
+  { ssr: false }
+)
 
 export default function Home() {
   return (
