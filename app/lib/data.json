@@ -1,0 +1,36 @@
+{
+  "features": [
+    {
+      "icon": "",
+      "title": "Chat UI",
+      "description": "An intuitive, conversational interface to manage your Web3 deployments and queries."
+    },
+    {
+      "icon": "",
+      "title": "CodeBlock",
+      "description": "Generate, validate, and execute deployment scripts directly within the assistant."
+    },
+    {
+      "icon": "",
+      "title": "API Endpoints",
+      "description": "Seamlessly integrate Zeus with your existing CI/CD pipelines and development tools."
+    }
+  ],
+  "roadmap": [
+    {
+      "quarter": "Q2 2025",
+      "title": "Multi-Chain Support",
+      "description": "Extend deployment capabilities beyond EVM to chains like Solana and Polkadot."
+    },
+    {
+      "quarter": "Q3 2025",
+      "title": "Plugin Architecture",
+      "description": "Enable developers to build and share custom plugins to extend Zeus's core functionality."
+    },
+    {
+      "quarter": "Later",
+      "title": "AI-Powered Audits",
+      "description": "Integrate automated smart contract auditing powered by advanced AI models."
+    }
+  ]
+}
