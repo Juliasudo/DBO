@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-gradient {
+  @apply bg-gradient-light dark:bg-gradient-dark;
+}
