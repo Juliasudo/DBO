@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from 'framer-motion'
 import Hero from './sections/Hero'
-import ArchitectureSection from './sections/ArchitectureSection' // <-- Import new section
+import ArchitectureSection from './sections/ArchitectureSection' // <-- Should be importing this
 import Roadmap from './sections/Roadmap'
 import WhatWeAreBuilding from './sections/WhatWeAreBuilding'
 
@@ -16,7 +16,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
       >
         <Hero />
-        <ArchitectureSection /> {/* <-- Use new section here */}
+        <ArchitectureSection /> {/* <-- Should be using this component */}
         <Roadmap />
         <WhatWeAreBuilding />
       </motion.div>
