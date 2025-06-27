@@ -9,4 +9,6 @@ body {
 
 .hero-gradient {
   @apply bg-gradient-light dark:bg-gradient-dark;
+  background-size: 200% 200%;
+  animation: gradient-bg 15s ease infinite;
 }
