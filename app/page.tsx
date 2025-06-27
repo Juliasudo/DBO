@@ -1,16 +1,10 @@
 'use client'
 
 import { AnimatePresence, motion } from 'framer-motion'
-import dynamic from 'next/dynamic'
 import Hero from './sections/Hero'
-import Features from './sections/Features'
+import ArchitectureSection from './sections/ArchitectureSection' // <-- Import new section
 import Roadmap from './sections/Roadmap'
-
-// Dynamically import the WebGL component with SSR turned off
-const WhatWeAreBuilding = dynamic(
-  () => import('./sections/WhatWeAreBuilding'),
-  { ssr: false }
-)
+import WhatWeAreBuilding from './sections/WhatWeAreBuilding'
 
 export default function Home() {
   return (
@@ -22,7 +16,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
       >
         <Hero />
-        <Features />
+        <ArchitectureSection /> {/* <-- Use new section here */}
         <Roadmap />
         <WhatWeAreBuilding />
       </motion.div>
