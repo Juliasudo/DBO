@@ -1,19 +1,34 @@
 {
-  "features": [
+  "architecture": [
     {
-      "icon": "",
-      "title": "Chat UI",
-      "description": "An intuitive, conversational interface to manage your Web3 deployments and queries."
+      "title": "AI-Native DevOps Framework",
+      "description": "Zeus is designed to convert plain-language prompts into real, deployable blockchain infrastructure. It's not just a scripting tool—it’s an intelligent agent system for builders.",
+      "icon": "BrainCircuit"
     },
     {
-      "icon": "",
-      "title": "CodeBlock",
-      "description": "Generate, validate, and execute deployment scripts directly within the assistant."
+      "title": "Modular Agent System",
+      "description": "At its core, Zeus uses specialized agents for planning, validating, and deploying. These agents can be extended with adapters for multiple chains like Solana and EVM, each with a configurable 'persona' to define its behavior and risk model.",
+      "icon": "ToyBrick"
     },
     {
-      "icon": "",
-      "title": "API Endpoints",
-      "description": "Seamlessly integrate Zeus with your existing CI/CD pipelines and development tools."
+      "title": "From Prompt to Infrastructure",
+      "description": "User intent, like “deploy a burnable Solana token,” is passed to a built-in LLM planner. This generates structured JSON blueprints which are then rendered into Dockerfiles, deployment scripts, and even markdown documentation.",
+      "icon": "TerminalSquare"
+    },
+    {
+      "title": "Local-First Philosophy",
+      "description": "Your data and operations stay on your machine. Zeus runs 100% locally with no remote AI calls or cloud dependencies, and can even be used offline after the initial setup.",
+      "icon": "Laptop"
+    },
+    {
+      "title": "Wallet Risk Engine",
+      "description": "Before a deployment goes live, Zeus can audit a wallet via RPC and score its risk based on past on-chain behavior. Includes built-in support for Solana transaction indexing and local SQLite caching.",
+      "icon": "Shield"
+    },
+    {
+      "title": "zk-Audit Layer (Planned)",
+      "description": "A forward-looking feature to attach zero-knowledge attestations to each deployment, providing cryptographic receipts for your infrastructure without revealing sensitive details.",
+      "icon": "Lock"
     }
   ],
   "roadmap": [
